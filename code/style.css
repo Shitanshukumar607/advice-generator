@@ -72,5 +72,4 @@ body{
 
 #roll:hover{
     cursor: pointer;
-    box-shadow: 0 0 10px 10px var(--neon);
 }

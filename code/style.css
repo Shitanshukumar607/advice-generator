@@ -4,11 +4,11 @@
 :root{
 
     --background: hsl(218, 23%, 16%);
+    --grayishblue:hsl(217, 19%, 38%);
     --darkgrayishblue: hsl(217, 19%, 24%);
-    --green:hsl(193, 38%, 86%);
+    --cyan:hsl(193, 38%, 86%);
     --neon: hsl(150, 100%, 66%);
-    --darkblue:hsl(218, 23%, 16%);
-
+    
 }
 
 
@@ -32,18 +32,19 @@ body{
     min-width: 200px;
     height: 45%;
     padding: 2% 5% 2% 5%;
-    background-color: var(--darkblue);
-    background-image: url(../images/icon-dice.svg);
+    background-color: var(--grayishblue);
+    /* background-image: url(../images/icon-dice.svg); */
     border-radius: 25px;
 }
 
 .adviceNo{
-    color: var(--green);
+    color: var(--neon);
     letter-spacing: 4px;
     margin: 0;
 }
 
 .advice{
+    color: var(--cyan);
     font-size: 26px;
     margin: 0;
     text-align: center;
@@ -59,7 +60,7 @@ body{
 }
 
 #roll {
-    background-color: var(--green);
+    background-color: var(--neon);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -71,5 +72,5 @@ body{
 
 #roll:hover{
     cursor: pointer;
-    box-shadow: 0 0 10px 5px var(--neon);
+    box-shadow: 0 0 10px 10px var(--neon);
 }

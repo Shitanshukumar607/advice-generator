@@ -4,9 +4,10 @@
 :root{
 
     --background: hsl(218, 23%, 16%);
-    --advicebg: hsl(217, 19%, 24%);
+    --darkgrayishblue: hsl(217, 19%, 24%);
     --green:hsl(193, 38%, 86%);
     --neon: hsl(150, 100%, 66%);
+    --darkblue:hsl(218, 23%, 16%);
 
 }
 
@@ -31,8 +32,8 @@ body{
     min-width: 200px;
     height: 45%;
     padding: 2% 5% 2% 5%;
-    background-color: var(--advicebg);
-    /* background-image: url(../images/icon-dice.svg); */
+    background-color: var(--darkblue);
+    background-image: url(../images/icon-dice.svg);
     border-radius: 25px;
 }
 
@@ -52,8 +53,7 @@ body{
     width: 100%;
 }
 
- #roll img{
-  
+#roll img{
     width: 50%;
     height: 50%;
 }
@@ -70,8 +70,6 @@ body{
 }
 
 #roll:hover{
-
     cursor: pointer;
-    box-shadow: 10px 10px 10px 5px var(--neon);
-
+    box-shadow: 0 0 10px 5px var(--neon);
 }

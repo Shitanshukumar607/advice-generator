@@ -33,7 +33,6 @@ body{
     height: 45%;
     padding: 2% 5% 2% 5%;
     background-color: var(--grayishblue);
-    /* background-image: url(../images/icon-dice.svg); */
     border-radius: 25px;
 }
 
@@ -68,8 +67,20 @@ body{
     width: 55px;
     height: 55px;
     border-radius: 50%;
+    border: 0cm;
 }
 
 #roll:hover{
     cursor: pointer;
+}
+
+@media (max-width: 400px) {
+
+    .adviceNo{
+        font-size: 15px;
+    }
+
+    .advice{
+        font-size: 22px;
+    }
 }
